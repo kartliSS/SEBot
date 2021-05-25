@@ -25,3 +25,4 @@ if __name__ == '__main__':
     loop = asyncio.get_event_loop()
     loop.call_later(DELAY, repeat, mailing(), loop)
     executor.start_polling(dp, on_shutdown=on_shutdown, on_startup=on_startup, loop=loop)
+

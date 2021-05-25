@@ -1,3 +1,4 @@
 git+git://github.com/aiogram/aiogram.git@7afe783914bee69df07a9cfef463248c61901ecd
-sqlalchemy
-gino
+sqlalchemy~=1.3.24
+gino~=1.0.1
+python-dotenv~=0.17.1

@@ -12,9 +12,7 @@ services:
       - 5432:5432
     networks:
       - botnet
-# Uncomment volumes if you need locate db on local host
-#    volumes:
-#      - ./pgdata:/var/lib/postgresql/data
+
 
   tgbot:
     container_name: bot
